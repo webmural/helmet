@@ -13,3 +13,18 @@
 .aloha {
   margin: 0;
 }
+
+.helmet {
+  min-height: 100vh;
+}
+
+.smelt {
+  align-items: center;
+  display: flex;
+}
+
+@media (orientation: portrait) {
+  .smelt {
+    writing-mode: vertical-rl;
+  }
+}
